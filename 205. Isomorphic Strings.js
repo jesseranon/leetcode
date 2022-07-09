@@ -12,13 +12,3 @@ var isIsomorphic = function(s, t) {
     }
     return true;
 };
-
-const a = 'foo';
-const b = 'bar';
-
-const c = 'badc';
-const d = 'baba';
-
-const test = isIsomorphic(c, d);
-
-console.log(test);
